@@ -159,17 +159,17 @@ class GraphViewController: UIViewController {
         graphView.xAxis.axisLineColor = UIColor.customBackgroundColor()
 
         // Remove left Y-axis
-        var leftYAxis = graphView.getAxis(YAxis.AxisDependency.left)
+        let leftYAxis = graphView.getAxis(YAxis.AxisDependency.left)
         leftYAxis.enabled = false
         
         // Format right Y-axis
-        var rightYAxis = graphView.getAxis(YAxis.AxisDependency.right)
+        let rightYAxis = graphView.getAxis(YAxis.AxisDependency.right)
         rightYAxis.labelTextColor = UIColor.customWhiteOpacityHalfColor()
         rightYAxis.gridColor = UIColor.customWhiteOpacityTenColor()
         rightYAxis.axisLineColor = UIColor.customBackgroundColor()
         
         // Format chart legend
-        var legend = graphView.legend
+        let legend = graphView.legend
         legend.textColor = UIColor.customWhiteOpacityHalfColor()
         
         // Remove graph border

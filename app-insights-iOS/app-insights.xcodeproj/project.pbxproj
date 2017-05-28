@@ -19,6 +19,7 @@
 		120232D41E72079300064095 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 120232D31E72079300064095 /* SwiftyJSON.framework */; };
 		120232D51E72079300064095 /* SwiftyJSON.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 120232D31E72079300064095 /* SwiftyJSON.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		120232D71E788EBB00064095 /* GraphSentiment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 120232D61E788EBB00064095 /* GraphSentiment.swift */; };
+		439136EB1EDAC25B00F07598 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 439136EA1EDAC25B00F07598 /* Default-568h@2x.png */; };
 		B37988041E71FBB60041F7F6 /* Credentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37988031E71FBB60041F7F6 /* Credentials.swift */; };
 		B37988061E7201B80041F7F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B37988051E7201B80041F7F6 /* Main.storyboard */; };
 		B379880A1E720F350041F7F6 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37988091E720F350041F7F6 /* App.swift */; };
@@ -93,6 +94,7 @@
 		120232D11E71F1AF00064095 /* GraphViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphViewController.swift; sourceTree = "<group>"; };
 		120232D31E72079300064095 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/iOS/SwiftyJSON.framework; sourceTree = "<group>"; };
 		120232D61E788EBB00064095 /* GraphSentiment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphSentiment.swift; sourceTree = "<group>"; };
+		439136EA1EDAC25B00F07598 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		B37988031E71FBB60041F7F6 /* Credentials.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Credentials.swift; sourceTree = "<group>"; };
 		B37988051E7201B80041F7F6 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		B37988091E720F350041F7F6 /* App.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
@@ -155,6 +157,7 @@
 		120232A51E6E02ED00064095 = {
 			isa = PBXGroup;
 			children = (
+				439136EA1EDAC25B00F07598 /* Default-568h@2x.png */,
 				120232CA1E6E175900064095 /* Frameworks */,
 				120232B01E6E02ED00064095 /* app-insights */,
 				120232AF1E6E02ED00064095 /* Products */,
@@ -408,6 +411,7 @@
 				120232B91E6E02ED00064095 /* Assets.xcassets in Resources */,
 				B379881B1E78311E0041F7F6 /* Reviews.storyboard in Resources */,
 				B37988061E7201B80041F7F6 /* Main.storyboard in Resources */,
+				439136EB1EDAC25B00F07598 /* Default-568h@2x.png in Resources */,
 				B37988171E7828D00041F7F6 /* Keywords.storyboard in Resources */,
 				CE1446E41E808EAA00296879 /* ReviewListTableViewCell.xib in Resources */,
 				B37988131E77A5880041F7F6 /* AppDetails.storyboard in Resources */,

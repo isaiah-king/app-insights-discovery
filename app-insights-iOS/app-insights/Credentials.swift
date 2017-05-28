@@ -17,13 +17,13 @@
 import Foundation
 
 public struct Credentials {
-    static let DiscoveryUsername = "your-discovery-username-here"
-    static let DiscoveryPassword = "your-discovery-password-here"
+    static let DiscoveryUsername = "6a966dad-494b-48f0-8a82-ebfe7d21fd72"
+    static let DiscoveryPassword = "2XV41nV106rH"
     static let EnvironmentName = "your-discovery-environment-name"
-    static let CollectionName = "your-collection-name"
+    static let CollectionName = "EXAMPLE-COLLECTION-NAME"
     static let DiscoveryVersion = "2017-02-14"
     
-    static let CloudantUsername = "your-cloudant-username-here"
-    static let CloudantPassword = "your-cloudant-password-here"
-    static let AppsDBName = "your-cloudant-database-name"
+    static let CloudantUsername = "5160e74d-a9ce-45e3-8596-07ece2915fa4-bluemix"
+    static let CloudantPassword = "5ce2e91dd6bc5cfc3f9286bb074b91362d776b29451b7914f3c32d5611b8e0d2"
+    static let AppsDBName = "EXAMPLE-DB-NAME"
 }
